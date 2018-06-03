@@ -26,7 +26,7 @@ const Current = (props) => {
                 </div>
             </div>
             <div className="weather-app__current-img">
-                <img src={'http:' + props.icon} alt="current weather"/>
+                <img src={'https:' + props.icon} alt="current weather"/>
             </div>
         </div>
     )
