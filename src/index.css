@@ -14,3 +14,21 @@ body {
   box-sizing: inherit;
 }
 
+.github-link {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 25px;
+  bottom: 10px;
+  font-size: 12px;
+  transition: 0.2s;
+  text-decoration: none;
+  color: #fff;
+}
+
+.github-link__img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
