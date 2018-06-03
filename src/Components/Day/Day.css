@@ -1,0 +1,68 @@
+.weather-app__day {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: 1px solid #1f253d;
+    background-color: #394264;
+}
+.weather-app__day-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.weather-app__day-active {
+    background-color: #50597b;
+}
+
+.weather-app__day:last-child {
+    border-bottom: 1px solid #1f253d;
+}
+
+.weather-app__day-name {
+    display: inline-block;
+    width: 35px;
+    font-family: ubunturegular, Arial, serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.weather-app__day-date {
+    display: inline-block;
+    margin-left: 10px;
+    font-family: ubuntulight, Arial, serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #9099b7;
+}
+
+.weather-app__day-degrees {
+    display: inline-block;
+    margin: 10px;
+    font-family: ubunturegular, Arial, serif;
+    font-size: 18px;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.weather-app__day-degrees:after {
+    content: '\00B0';
+}
+
+.weather-app__day-weather-icon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+}
+
+.weather-app__day-weather-icon img {
+    display: inline-block;
+    height: 100%;
+    width: auto;
+    vertical-align: middle;
+}

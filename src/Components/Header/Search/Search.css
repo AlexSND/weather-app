@@ -1,0 +1,12 @@
+.weather-app__search-input {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #cc324b;
+}

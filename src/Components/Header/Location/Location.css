@@ -1,0 +1,12 @@
+.weather-app__location {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff
+}
+
+.weather-app__search-icon {
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.weather-app__header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #cc324b;
+}
