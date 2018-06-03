@@ -8,7 +8,10 @@ import Header from './Components/Header/Header'
 import Current from './Components/Current/Current'
 import DaysList from './Components/DaysList/DaysList'
 
-const ApiKey = '074e10846bf34b868cd132826180205'
+// paste your api key from https://www.apixu.com/
+
+const ApiKey = ''
+
 
 class App extends Component {
   constructor(props) {
