@@ -14,7 +14,7 @@ const Day = (props) => {
                 ? (date.getMonth() + 1) 
                 : '0' + (date.getMonth() + 1)
                 
-    const displayDate = monthDay + '/' + month
+    const displayDate = `${monthDay}/${month}`
 
     return (
         <div className="weather-app__day">
@@ -31,7 +31,7 @@ const Day = (props) => {
                     {props.data.day.maxtemp_c}
                 </div>
                 <div className="weather-app__day-weather-icon">
-                    <img src={'https:' + props.data.day.condition.icon} alt=""/>
+                    <img src={`https:${props.data.day.condition.icon}`} alt=""/>
                 </div>
             </div>
         </div>

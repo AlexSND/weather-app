@@ -14,7 +14,7 @@ const Current = (props) => {
                 ? (date.getMonth() + 1) 
                 : '0' + (date.getMonth() + 1)
                 
-    const displayDate = day + ' ' + monthDay + '/' + month
+    const displayDate = `${day} ${monthDay}/${month}`
     return (
         <div className="weather-app__current">
             <div className="weather-app__current-text">
@@ -26,7 +26,7 @@ const Current = (props) => {
                 </div>
             </div>
             <div className="weather-app__current-img">
-                <img src={'https:' + props.icon} alt="current weather"/>
+                <img src={`https:${props.icon}`} alt="current weather"/>
             </div>
         </div>
     )
