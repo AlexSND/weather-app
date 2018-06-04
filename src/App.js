@@ -64,7 +64,7 @@ class App extends Component {
   searchHandler(e) {
     const searchQuery = e.target.value
     if(searchQuery.length >= 3) {
-      fetch(`http://api.apixu.com/v1/current.json?key=${ApiKey}&q=${e.target.value}`)
+      fetch(`https://api.apixu.com/v1/current.json?key=${ApiKey}&q=${e.target.value}`)
       .then(response => response.json())
       .then(response => this.setState({
         searchQuery
