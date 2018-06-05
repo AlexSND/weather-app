@@ -11,7 +11,7 @@ import GithubPagesLink from './Components/GithubPagesLink/GithubPagesLink'
 
 // paste your api key from https://www.apixu.com/
 
-const ApiKey = '074e10846bf34b868cd132826180205'
+const ApiKey = ''
 
 
 class App extends Component {
