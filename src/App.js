@@ -7,10 +7,11 @@ import Preloader from './Components/Preloader/Preloader'
 import Header from './Components/Header/Header'
 import Current from './Components/Current/Current'
 import DaysList from './Components/DaysList/DaysList'
+import GithubPagesLink from './Components/GithubPagesLink/GithubPagesLink'
 
 // paste your api key from https://www.apixu.com/
 
-const ApiKey = ''
+const ApiKey = '074e10846bf34b868cd132826180205'
 
 
 class App extends Component {
@@ -75,6 +76,7 @@ class App extends Component {
 
   render() {    
     return this.state.weekForecast ? (
+      <div>
         <div className="weather-app">
           <Header
             locationName={this.state.locationName}
@@ -89,6 +91,9 @@ class App extends Component {
           />
           <DaysList weekForecast={Array.from(this.state.weekForecast)} />
         </div>
+        <GithubPagesLink link='https://github.com/AlexSND/weather-app'/>
+      </div>
+
       )
       :
       <Preloader />
